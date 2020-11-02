@@ -37,4 +37,9 @@ module.exports = {
 			],
 		}),
 	],
+	devServer: {
+		contentBase: './dist',
+		port: 9000,
+		open: true,
+	},
 };
